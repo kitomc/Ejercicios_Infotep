@@ -41,5 +41,11 @@ namespace Servicio_Mensajeria
 
 
         }
+
+        private void btnStringBuilderControl_Click(object sender, EventArgs e)
+        {
+            ctrlStringBuilder ctrlStringBuilder = new ctrlStringBuilder();
+            Utilidades.MostrarPNL(pnlContenedor, ctrlStringBuilder);
+        }
     }
 }

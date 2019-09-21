@@ -33,6 +33,22 @@ namespace Servicio_Mensajeria
         }
 
 
+        public static void ContructorString( StringBuilder builder,string Nombre,string Apellido,string Edad, string FechaNacimiento , string Genero, string Telefono)
+        {
+
+            builder.Append("Hola ");
+            builder.Append("Mi nombre es ");
+            builder.Append(Nombre);
+            builder.Append (" ");
+            builder.Append(Apellido);
+            builder.Append("Tengo ");
+            builder.Append(Edad);
+            builder.Append(" de edad y mi fecha de nacimiento es ");
+            builder.Append( FechaNacimiento );
+           MessageBox.Show(builder.ToString());
+        }
+
+
         public static bool MostrarPNL( Panel Contenedor , Control Contenido)
         {
 

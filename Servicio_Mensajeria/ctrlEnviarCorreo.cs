@@ -38,5 +38,10 @@ namespace Servicio_Mensajeria
         {
 
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

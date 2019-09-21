@@ -57,6 +57,12 @@
     <Compile Include="ctrlEnviarCorreo.Designer.cs">
       <DependentUpon>ctrlEnviarCorreo.cs</DependentUpon>
     </Compile>
+    <Compile Include="ctrlStringBuilder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlStringBuilder.Designer.cs">
+      <DependentUpon>ctrlStringBuilder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Utilidades.cs" />
     <EmbeddedResource Include="ctrlEnviarCorreo.resx">
       <DependentUpon>ctrlEnviarCorreo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlStringBuilder.resx">
+      <DependentUpon>ctrlStringBuilder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

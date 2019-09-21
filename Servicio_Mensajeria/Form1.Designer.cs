@@ -32,6 +32,7 @@
             this.btnCrearCorreo = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pnlContenedor = new System.Windows.Forms.Panel();
             this.pnlIzquierdo = new System.Windows.Forms.Panel();
+            this.btnStringBuilderControl = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pnlIzquierdo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,13 +58,13 @@
             this.btnCrearCorreo.IconVisible = true;
             this.btnCrearCorreo.IconZoom = 90D;
             this.btnCrearCorreo.IsTab = false;
-            this.btnCrearCorreo.Location = new System.Drawing.Point(23, 45);
+            this.btnCrearCorreo.Location = new System.Drawing.Point(3, 45);
             this.btnCrearCorreo.Name = "btnCrearCorreo";
             this.btnCrearCorreo.Normalcolor = System.Drawing.SystemColors.AppWorkspace;
             this.btnCrearCorreo.OnHovercolor = System.Drawing.SystemColors.AppWorkspace;
             this.btnCrearCorreo.OnHoverTextColor = System.Drawing.Color.Black;
             this.btnCrearCorreo.selected = false;
-            this.btnCrearCorreo.Size = new System.Drawing.Size(93, 35);
+            this.btnCrearCorreo.Size = new System.Drawing.Size(123, 35);
             this.btnCrearCorreo.TabIndex = 0;
             this.btnCrearCorreo.Text = "Crear Correo";
             this.btnCrearCorreo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -82,12 +83,49 @@
             // pnlIzquierdo
             // 
             this.pnlIzquierdo.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.pnlIzquierdo.Controls.Add(this.btnStringBuilderControl);
             this.pnlIzquierdo.Controls.Add(this.btnCrearCorreo);
             this.pnlIzquierdo.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlIzquierdo.Location = new System.Drawing.Point(0, 0);
             this.pnlIzquierdo.Name = "pnlIzquierdo";
             this.pnlIzquierdo.Size = new System.Drawing.Size(133, 387);
             this.pnlIzquierdo.TabIndex = 8;
+            // 
+            // btnStringBuilderControl
+            // 
+            this.btnStringBuilderControl.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnStringBuilderControl.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnStringBuilderControl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnStringBuilderControl.BorderRadius = 0;
+            this.btnStringBuilderControl.ButtonText = "StringBuilder";
+            this.btnStringBuilderControl.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStringBuilderControl.DisabledColor = System.Drawing.Color.Gray;
+            this.btnStringBuilderControl.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnStringBuilderControl.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnStringBuilderControl.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnStringBuilderControl.Iconimage")));
+            this.btnStringBuilderControl.Iconimage_right = null;
+            this.btnStringBuilderControl.Iconimage_right_Selected = null;
+            this.btnStringBuilderControl.Iconimage_Selected = null;
+            this.btnStringBuilderControl.IconMarginLeft = 0;
+            this.btnStringBuilderControl.IconMarginRight = 0;
+            this.btnStringBuilderControl.IconRightVisible = true;
+            this.btnStringBuilderControl.IconRightZoom = 0D;
+            this.btnStringBuilderControl.IconVisible = true;
+            this.btnStringBuilderControl.IconZoom = 90D;
+            this.btnStringBuilderControl.IsTab = false;
+            this.btnStringBuilderControl.Location = new System.Drawing.Point(3, 153);
+            this.btnStringBuilderControl.Name = "btnStringBuilderControl";
+            this.btnStringBuilderControl.Normalcolor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnStringBuilderControl.OnHovercolor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnStringBuilderControl.OnHoverTextColor = System.Drawing.Color.Black;
+            this.btnStringBuilderControl.selected = false;
+            this.btnStringBuilderControl.Size = new System.Drawing.Size(123, 35);
+            this.btnStringBuilderControl.TabIndex = 1;
+            this.btnStringBuilderControl.Text = "StringBuilder";
+            this.btnStringBuilderControl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStringBuilderControl.Textcolor = System.Drawing.Color.Black;
+            this.btnStringBuilderControl.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStringBuilderControl.Click += new System.EventHandler(this.btnStringBuilderControl_Click);
             // 
             // Form1
             // 
@@ -111,6 +149,7 @@
         private Bunifu.Framework.UI.BunifuFlatButton btnCrearCorreo;
         private System.Windows.Forms.Panel pnlContenedor;
         private System.Windows.Forms.Panel pnlIzquierdo;
+        private Bunifu.Framework.UI.BunifuFlatButton btnStringBuilderControl;
     }
 }
 
