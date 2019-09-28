@@ -39,7 +39,7 @@ namespace Entity_Framework
         }
             
 
-        static public string validadorCedula(string cedula)
+        static public int validadorCedula(string cedula)
         {
             int sumaPares = 0;
             int sumaImpares = 0;
@@ -62,9 +62,14 @@ namespace Entity_Framework
             }
             digito = 10 - ((sumaPares + sumaImpares) % 10);
             if (digito == 10)
-                digito = 0;
+            
 
-            return digito.ToString();
+                digito = 0;
+                
+
+            
+           
+            return digito;
 
 
 

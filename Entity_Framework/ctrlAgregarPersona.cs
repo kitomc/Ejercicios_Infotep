@@ -28,11 +28,21 @@ namespace Entity_Framework
             personas personas = new personas();
 
             personas.nombre = Utilidades.validadorNombre( tbNombre.Text);
-            personas.cedula = Utilidades.validadorCedula( tbCedula.Text);
 
+            if (Utilidades.validadorCedula(tbCedula.Text) != 0)
+            {
+                MessageBox.Show("Cedula Invalida");
+            }
+
+            else
+            {
+
+            personas.cedula =  tbCedula.Text;
             db.personas.Add(personas);
             MessageBox.Show("BIEN!!! "+ personas.nombre+ "  fue agregado exitosamente");
             limpiar(tbNombre, tbCedula);
+            }
+
             
         }
         public void limpiar(TextBox a, TextBox b)
@@ -41,5 +51,7 @@ namespace Entity_Framework
 
 
         }
+
+
     }
 }
