@@ -12,6 +12,10 @@ namespace Servicio_Mensajeria
 {
     public partial class Form1 : Form
     {
+
+        //Tarea
+        /*  
+         *  */
         public Form1()
         {
             InitializeComponent();

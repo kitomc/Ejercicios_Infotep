@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validaciones", "Validacione
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicio_Mensajeria", "Servicio_Mensajeria\Servicio_Mensajeria.csproj", "{94262E13-BEC2-47DE-84E3-D8958F0761EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity_Framework", "Entity_Framework\Entity_Framework.csproj", "{563CAFD4-4EA9-44E1-8EDE-7E671A292CE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{94262E13-BEC2-47DE-84E3-D8958F0761EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94262E13-BEC2-47DE-84E3-D8958F0761EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94262E13-BEC2-47DE-84E3-D8958F0761EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563CAFD4-4EA9-44E1-8EDE-7E671A292CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563CAFD4-4EA9-44E1-8EDE-7E671A292CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563CAFD4-4EA9-44E1-8EDE-7E671A292CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563CAFD4-4EA9-44E1-8EDE-7E671A292CE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
