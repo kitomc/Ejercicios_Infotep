@@ -27,11 +27,11 @@ namespace Entity_Framework
             var db = new codigo_sabadoEntities();
             personas personas = new personas();
 
-            personas.nombre = tbNombre.Text;
-            personas.cedula = tbCedula.Text;
+            personas.nombre = Utilidades.validadorNombre( tbNombre.Text);
+            personas.cedula = Utilidades.validadorCedula( tbCedula.Text);
 
             db.personas.Add(personas);
-            MessageBox.Show(""+ personas.nombre+ "  fue agregado exitosamente");
+            MessageBox.Show("BIEN!!! "+ personas.nombre+ "  fue agregado exitosamente");
             limpiar(tbNombre, tbCedula);
             
         }
